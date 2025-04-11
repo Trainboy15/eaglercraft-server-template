@@ -1,0 +1,28 @@
+data-version: 1
+f8dfa6c0-c755-30c9-b8b5-d26f082c1f32:
+  playername: TrainBoy888
+  next_level_exp: 354
+  level: 1
+  games_played: 5
+  exp: 177
+  deaths: 14
+  scored_points: 5
+  kills: 4
+  wins: 1
+ad9d149e-1c4c-32db-a474-254b80e45590:
+  next_level_exp: 354
+  loses: 1
+  level: 1
+  deaths: 4
+  games_played: 2
+  scored_points: 2
+  kills: 6
+  exp: 86
+  playername: DoomGuy
+20d9306a-f301-390a-be59-6ca1b6db704e:
+  playername: Trainboy888
+  next_level_exp: 354
+  level: 1
+  deaths: 1
+  games_played: 1
+  exp: 20
