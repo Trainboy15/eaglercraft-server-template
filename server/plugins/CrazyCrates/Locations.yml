@@ -1,0 +1,25 @@
+Locations:
+  '1':
+    Crate: Basic
+    World: world
+    X: 9
+    Y: 69
+    Z: -34
+  '2':
+    Crate: Galactic
+    World: world
+    X: 9
+    Y: 69
+    Z: -30
+  '3':
+    Crate: Crazy
+    World: world
+    X: 9
+    Y: 69
+    Z: -22
+  '4':
+    Crate: Classic
+    World: world
+    X: 9
+    Y: 69
+    Z: -26

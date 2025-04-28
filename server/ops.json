@@ -1,0 +1,38 @@
+[
+  {
+    "uuid": "ad9d149e-1c4c-32db-a474-254b80e45590",
+    "name": "DoomGuy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "444cf323-978c-3e83-9288-612345bfec67",
+    "name": "Test",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "5e867982-bc19-3224-9cd1-49714ff87d4d",
+    "name": "ViggYeeg1822",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "d523fa6c-3ce6-4aee-8542-90b34cc8f908",
+    "name": "DoomGuy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "0bcd809d-09f0-3d3d-b090-3a25a01d8b31",
+    "name": "Eaglerboy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "37931100-d3e2-34a3-a1a9-cfa93069940f",
+    "name": "Rando",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

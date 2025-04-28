@@ -1,0 +1,3 @@
+SendMessage: true
+WelcomeMessage: 'Hi &6{PLAYER}&r, Welcome to &dSkyFrame Networkpa. &rPlayers online:
+  &a{ONLINE}'

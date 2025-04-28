@@ -1,0 +1,233 @@
+### Initial config.yml for all plugily projects
+## Thanks for using our plugins! ~Tigerpanzer_02 from Plugily Projects
+#      thebridge configuration file
+#
+#    You can edit here the basic things of thebridge
+#      Please read everything CAREFULLY!
+#   You don't want to break anything, do you?
+#
+
+
+# Select locale of thebridge, default it's English.
+# Available locales:
+#    default - English language. Uses 'language.yml'.
+#    See https://github.com/Plugily-Projects/locale_storage/tree/master/plugins/minecraft/thebridge
+#    Use filename of the language e.g. de_DE.yml -> locale: de_DE
+locale: default
+
+
+# Should we display a boss bar with additional arena information?
+Bossbar:
+  Display: true
+  # Interval in seconds between messages
+  Interval: 10
+
+
+# Should we hook into bungeecord? (If you want to use arena per server option)
+# This option will let you access bungee.yml and its options.
+# You STILL need to use external addon for HUB server game signs
+# Check here for more info: https://wiki.plugily.xyz/
+Bungee-Mode: false
+
+
+# Enable Inventory Manager for your games? (VERY USEFUL feature for MULTI ARENA)
+# This saves inventory of players and restores it after player leaves arena.
+# Saved elements: max health, health, food, experience, full inventory, armor contents, fire ticks, active potions
+Inventory-Manager: true
+
+
+# Kits configuration
+# A server restart is required for changes to apply
+Kit:
+  # Should we load kits?
+  Enabled: true
+  # What is the default kit for players?
+  # This should be the same name as the file name of the kits file in the kits folder (no .yml)
+  Default: "bridge"
+  # Which type should be the Blocks players get. Make sure to use colored blocks here as the format is color + this string
+  Colored-Block-Replace-Material: "WHITE_TERRACOTTA"
+  # Which type should be the Blocks players get. Make sure to use colored blocks here as the format is color + this string
+  Colored-Block-Material: "TERRACOTTA"
+
+
+Commands:
+  # Commands which can be used in game, remove all of them to disable (only works if Block.In-Game.Commands = true)
+  Whitelist:
+    - me
+    - help
+  # Enable and Disable predefined shortened commands or add your own
+  Shorter:
+    '1':
+      Short: "start"
+      Executes: "thebridgeadmin forcestart"
+      Enabled: true
+    '2':
+      Short: "leave"
+      Executes: "thebridge leave"
+      Enabled: true
+    '3':
+      Short: "kit"
+      Executes: "thebridge selectkit"
+      Enabled: false
+    '4':
+      Short: "stats"
+      Executes: "thebridge stats"
+      Enabled: false
+    '5':
+      Short: "top"
+      Executes: "thebridge top"
+      Enabled: true
+
+
+# Block some functions of your players
+Block:
+  In-Game:
+    # Should we block every not plugin associated commands in game?
+    Commands: true
+    # Should the leave command be blocked inside arena?
+    Leave: false
+    # Cancels Item Movement into player crafting, enchantment tables, anvils ...
+    Item-Move: true
+    ArmorStand:
+      # Should we block armor stand destroy with double click?
+      Destroy: true
+      # Should we block armor stand interaction?
+      Interact: true
+      # Should these only be blocked while ingame and arena state is in_game? (e.g. Lobby and Ending is blocked)
+      # Setting it to false means on all stages of the game the event will be cancelled.
+      # Setting it to true means only while IN_GAME the event will be cancelled.
+      Check: true
+
+
+# Enable this option when you're using MySQL, otherwise it won't work.
+# Be careful when changing this because there is NO migrator between
+# flat file and MySQL for player stats.
+# If this option is disabled it means all stats will be saved as flat file!
+Database: false
+
+
+# Should we enable in game rewards? See rewards.yml for more...
+# You should also check out our script engine tutorial for rewards! https://tutorial.plugily.xyz
+Rewards: false
+
+
+Chat:
+  # Enable in game (eg. '[KIT][LEVEL] Tigerpanzer_02: hey') special formatting?
+  # Formatting is configurable in language.yml
+  # You can use PlaceholderAPI placeholders in chat format!
+  Format: true
+  Separate:
+    # Should we enable a separate arena chat for players inside a arena
+    # Useful on multi arena servers that don't want the same chat for all players on the server
+    Arena: true
+    # Should spectators only write with other spectators
+    Spectators: true
+
+
+# Should we fire some cool fireworks at locations of every player at special events such as the game end?
+Firework: true
+
+
+# Should blocks behind game signs change their color based on game state?
+# They will change color to:
+# - white (waiting for players) stained-glass
+# - yellow (starting) stained-glass
+# - orange (in game) stained-glass
+# - gray (ending) stained-glass
+# - black (restarting) stained-glass
+# or define your own at signs.yml!
+Sign-Block-States: true
+
+
+# Should holiday events for the plugin be enabled?
+# Eg. 4 days before and 4 days after Halloween special effects
+# for death, spooky! There are more holiday events! Check wiki!
+# Wiki: -
+Holidays: true
+
+
+# Should the plugin enable special powerups which can be found in powerups.yml
+Powerups: false
+
+
+# Should we create leaderboards out of the stats?
+Leaderboard: true
+
+
+Parties:
+  # Should we try to hook into your current party plugin? (Supports well know party plugins, see wiki!)
+  # It will group up all players with the party leader. The party leader can join with the whole party!
+  External: true
+  # Should we enable our own party system that can be only used for this plugin?
+  # Check the wiki for commands
+  Own: false
+
+
+Damage:
+  # Should players get fall damage?
+  Fall: false
+  # Should players get drowning damage?
+  Drowning: false
+  # Should players get fire damage?
+  Fire: false
+  # Should players lose food ingame & get damage?
+  Hunger: false
+
+
+Cycle:
+  # Should we make permanent clear weather on all worlds where our arenas are?
+  Weather: false
+  # Should the time on the world your arenas are modified to stay at the same time?
+  Daylight:
+    Enable: false
+    Time: 10000
+
+
+# How many seconds game should take to start.
+Time-Manager:
+  Waiting: 20
+  Starting: 60
+  Shorten-Waiting-Full: 15
+  Shorten-Waiting-Force: 5
+  In-Game: 900
+  Ending: 10
+  Restarting: 5
+
+
+# Change the Bow Cooldown
+Bow-Cooldown: 3
+
+
+# Allow spectators on arena instances
+Spectators: true
+
+
+# Should players naturally regenerate health during a game
+Natural-Regeneration: false
+
+
+# Should blocks when broken drop items during a game
+Block-Break-Drop: true
+
+
+# Settings about cages on all bases
+Cage:
+  # Should only be the cage-floor removed on cage removal? (still the full cage should be selected!)
+  Only-Floor: false
+
+
+Update-Notifier:
+  # Should we check for updates on plugin start/after admin join?
+  # You REALLY should have this true!
+  Enabled: true
+  # Should we inform you when beta version is out?
+  # BETA IS NOT ALWAYS AS STABLE AS NORMAL RELEASE!
+  Notify-Beta-Versions: true
+
+
+# Don't edit it. But who's stopping you? It's your server!
+# Really, don't edit ;p
+# You edited it, huh? Next time hurt yourself!
+Do-Not-Edit:
+  File-Version: 2
+  Core-Version: 5

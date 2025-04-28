@@ -1,0 +1,28 @@
+# |------------------------------------------------------------------------
+# |                       CommandPanels Template File
+# |                          Official Panel v1.1
+# | https://www.spigotmc.org/resources/command-panels-custom-guis.67788/
+# |------------------------------------------------------------------------
+panels:
+  Navigator:
+    perm: default
+    rows: 1
+    title: '&cNavigator'
+    empty: GLASS_PANE
+    item:
+      '0':
+        material: STONE
+        stack: 1
+        name: '&fBridges'
+        commands:
+        - tb join Stone1
+        - cpc
+    item:
+      '1':
+        material: 152
+        stack: 1
+        name: '&4Murder Mystery'
+        commands:
+        - mm join mm1
+        - cpc
+    

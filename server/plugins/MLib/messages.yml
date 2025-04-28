@@ -1,0 +1,27 @@
+messages:
+  CommandItems:
+    prefix: '&7[&cCMDItems&7] '
+    messages:
+      item-given: '&7You have given an item!'
+      item-on-cooldown: '&cYou are still on cooldown for that item!'
+      item-does-not-exist: '&cThat item does not exist!'
+      help-message:
+      - '&7&m----------------------------------------'
+      - '&c/ci help &7- Shows this help message'
+      - '&c/ci reload &7- Reloads the plugin'
+      - '&c/ci give <item> [player] &7- Gives a player an item'
+      - '&c/ci config <name> &7- Places what you are holding into the config'
+      - '&c/ci types &7- Shows all valid item types'
+      - '&7&m----------------------------------------'
+      no-permission-item: '&cYou don''t have permission to use that item!'
+      plugin-reloaded: '&7You have reloaded the plugin!'
+      invalid-item: '&cYou are not holding a valid item!'
+      no-item-in-hand: '&cYou are not holding an item!'
+      player-not-found: '&cThat player could not be found!'
+      item-received: '&7You have received an item!'
+      no-permission: '&cYou are not allowed to do that!'
+      item-types: '&7Valid item types: &c%types%'
+      item-already-exists: '&cThat item already exists! Run the command again with
+        confirm at the end to overwrite!'
+      item-configured: '&7You have configured the item!'
+      only-player: '&cYou need to be a player to do that!'

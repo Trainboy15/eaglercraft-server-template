@@ -1,0 +1,4 @@
+region: "pork"
+permission: "portal.use"
+commands: # players execute these
+  - "warp pvp"

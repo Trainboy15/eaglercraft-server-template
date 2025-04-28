@@ -1,0 +1,51 @@
+items:
+  basic_item:
+    consume: true # If the item should be consumed when used
+    event-cancel: true # If the event should be cancelled when used (e.g. right-clicking a block)
+    
+    # This is the list of allowed clicks. The allowed options are: 
+    # RIGHT_CLICK_AIR, RIGHT_CLICK_BLOCK, LEFT_CLICK_AIR, LEFT_CLICK_BLOCK, SHIFT_RIGHT_CLICK_AIR, SHIFT_RIGHT_CLICK_BLOCK, SHIFT_LEFT_CLICK_AIR, SHIFT_LEFT_CLICK_BLOCK, ALL 
+    allowed-clicks:
+      - RIGHT_CLICK_AIR
+      - RIGHT_CLICK_BLOCK
+      - LEFT_CLICK_AIR
+      - LEFT_CLICK_BLOCK
+      - SHIFT_RIGHT_CLICK_AIR
+      - SHIFT_RIGHT_CLICK_BLOCK
+      - SHIFT_LEFT_CLICK_AIR
+      - SHIFT_LEFT_CLICK_BLOCK
+      - ALL 
+
+    # permission: "somepermission.for.item" # The permission required to use the item
+    item:
+      amount: 1 # The amount of the item
+      type: RED_BED
+      name: "&cSimple Test Item"
+      lore: 
+        - ""
+        - "&7Click me to run"
+      enchanted: true
+      # custom-model-data: 1234 # The custom model data of the item
+    commands:
+      # forceOp: false # If the player should be opped when the command is executed
+      byplayer:
+        - "say Hello from CommandItems!"
+      byconsole:
+        - "give %player% diamond 1"
+
+  tpItem:
+    consume: false
+    event-cancel: true
+    item:
+      amount: 1
+      type: compass
+      name: "&cNavigator"
+      lore: 
+        - ""
+        - "&3Use to navigate to games"
+    commands:
+      byplayer:
+        - "cp Navigator %player%"
+      byconsole:
+        - "cp Navigator %player%"
+      

@@ -1,0 +1,460 @@
+[01:57:48] [Server thread/INFO]: Starting minecraft server version 1.8.8
+[01:57:48] [Server thread/INFO]: Loading properties
+[01:57:48] [Server thread/INFO]: Default game type: ADVENTURE
+[01:57:48] [Server thread/INFO]: This server is running CraftBukkit version git-PaperSpigot-445 (MC: 1.8.8) (Implementing API version 1.8.8-R0.1-SNAPSHOT)
+[01:57:48] [Server thread/INFO]: Debug logging is disabled
+[01:57:48] [Server thread/INFO]: Spigot Timings: true - Verbose: true - Interval: 5m - Length: 60m
+[01:57:48] [Server thread/INFO]: Server Ping Player Sample Count: 12
+
+[01:57:48] [Server thread/INFO]: Using 4 threads for Netty based IO
+[01:57:49] [Server thread/INFO]: Data value allowed items: 
+[01:57:49] [Server thread/WARN]: java.lang.NoSuchFieldException: modifiers
+
+[01:57:49] [Server thread/WARN]: 	at java.base/java.lang.Class.getDeclaredField(Class.java:2782)
+
+[01:57:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.stackableBuckets(PaperSpigotConfig.java:192)
+
+[01:57:49] [Server thread/WARN]: 	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+
+[01:57:49] [Server thread/WARN]: 	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+
+[01:57:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.readConfig(PaperSpigotConfig.java:84)
+
+[01:57:49] [Server thread/WARN]: 	at org.github.paperspigot.PaperSpigotConfig.init(PaperSpigotConfig.java:62)
+
+[01:57:49] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.DedicatedServer.init(DedicatedServer.java:181)
+
+[01:57:49] [Server thread/WARN]: 	at net.minecraft.server.v1_8_R3.MinecraftServer.run(MinecraftServer.java:563)
+
+[01:57:49] [Server thread/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[01:57:49] [Server thread/INFO]: Generating keypair
+[01:57:49] [Server thread/INFO]: Starting Minecraft server on localhost:25565
+[01:57:49] [Server thread/INFO]: Your platform does not provide complete low-level API for accessing direct buffers reliably. Unless explicitly requested, heap buffer will always be preferred to avoid potential system unstability.
+[01:57:49] [Server thread/INFO]: Using default channel type
+[01:57:49] [Server thread/INFO]: Set PluginClassLoader as parallel capable
+[01:57:49] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
+[01:57:49] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[01:57:49] [Server thread/INFO]: [NBTAPI] Unable to create a bStats instance!!
+[01:57:49] [Server thread/INFO]: [TheBridge] Loading TheBridge v2.1.3
+[01:57:49] [Server thread/INFO]: [ResourceWorlds] Loading ResourceWorlds v1.0-SNAPSHOT
+[01:57:49] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v6.1;no_git_id
+[01:57:49] [Server thread/INFO]: [DecentHolograms] Loading DecentHolograms v2.8.15
+[01:57:49] [Server thread/INFO]: [RankSystem] Loading RankSystem v1.3
+[01:57:49] [Server thread/INFO]: [WelcomeMessage] Loading WelcomeMessage v1.0
+[01:57:49] [Server thread/INFO]: [Vanish] Loading Vanish v1.0.0
+[01:57:49] [Server thread/INFO]: [EconomyShopGUI] Loading EconomyShopGUI v6.12.1
+[01:57:49] [Server thread/INFO]: [DivinePortals] Loading DivinePortals v1.0.0
+[01:57:49] [Server thread/INFO]: [WeatherClear] Loading WeatherClear v1.0
+[01:57:49] [Server thread/INFO]: [MurderMystery] Loading MurderMystery v2.1.2
+[01:57:49] [Server thread/INFO]: [VillageDefense] Loading VillageDefense v4.7.1
+[01:57:49] [Server thread/INFO]: [CommandPanels] Loading CommandPanels v3.21.8
+[01:57:49] [Server thread/INFO]: [LightAntiCheat] Loading LightAntiCheat v1.2.6
+[01:57:49] [Server thread/INFO]: [CommandItems] Loading CommandItems v1.18.2
+[01:57:49] [Server thread/INFO]: [ProtocolLib] Loading ProtocolLib v5.3.0
+[01:57:50] [Server thread/INFO]: [CrazyCrates] Loading CrazyCrates v1.10.2.2
+[01:57:50] [Server thread/INFO]: [LoginSecurity] Loading LoginSecurity v3.3.0
+[01:57:50] [Server thread/INFO]: [ProtocolLib] Enabling ProtocolLib v5.3.0
+[01:57:50] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[01:57:50] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[01:57:50] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[01:57:50] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[01:57:50] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[01:57:50] [Server thread/INFO]: **** Beginning UUID conversion, this may take A LONG time ****
+[01:57:50] [Server thread/INFO]: Preparing level "world"
+[01:57:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:57:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:57:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 30 / Mi 32 / Other 64
+[01:57:50] [Server thread/INFO]: Hopper Transfer: 10 Hopper Check: 8 Hopper Amount: 1
+[01:57:50] [Server thread/INFO]: Random Lighting Updates: false
+[01:57:50] [Server thread/INFO]: Structure Info Saving: true
+[01:57:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:57:50] [Server thread/INFO]: Max Entity Collisions: 8
+[01:57:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:57:50] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:50] [Server thread/INFO]: Mob Spawn Range: 4
+[01:57:50] [Server thread/INFO]: Anti X-Ray: true
+[01:57:50] [Server thread/INFO]: 	Engine Mode: 1
+[01:57:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:57:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:57:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:50] [Server thread/INFO]: Arrow Despawn Rate: 100
+[01:57:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:50] [Server thread/INFO]: View Distance: 4
+[01:57:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:57:50] [Server thread/INFO]: Clear tick list: false
+[01:57:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:50] [Server thread/INFO]: -------- World Settings For [world] --------
+[01:57:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:57:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:57:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:57:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:57:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:57:50] [Server thread/INFO]: Water over lava flow speed: 5
+[01:57:50] [Server thread/INFO]: Fix TNT cannons: false
+[01:57:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:57:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:57:50] [Server thread/INFO]: World async lighting: false
+[01:57:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:57:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:57:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:57:50] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:50] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:57:50] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 30 / Mi 32 / Other 64
+[01:57:50] [Server thread/INFO]: Hopper Transfer: 10 Hopper Check: 8 Hopper Amount: 1
+[01:57:50] [Server thread/INFO]: Random Lighting Updates: false
+[01:57:50] [Server thread/INFO]: Structure Info Saving: true
+[01:57:50] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:57:50] [Server thread/INFO]: Max Entity Collisions: 8
+[01:57:50] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:57:50] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:50] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:50] [Server thread/INFO]: Mob Spawn Range: 4
+[01:57:50] [Server thread/INFO]: Anti X-Ray: true
+[01:57:50] [Server thread/INFO]: 	Engine Mode: 1
+[01:57:50] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:57:50] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:57:50] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:50] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:50] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:50] [Server thread/INFO]: Arrow Despawn Rate: 100
+[01:57:50] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:50] [Server thread/INFO]: View Distance: 4
+[01:57:50] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:50] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:57:50] [Server thread/INFO]: Clear tick list: false
+[01:57:50] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:50] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[01:57:50] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:57:50] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:57:50] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:57:50] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:57:50] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:57:50] [Server thread/INFO]: Water over lava flow speed: 5
+[01:57:50] [Server thread/INFO]: Fix TNT cannons: false
+[01:57:50] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:57:50] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:57:50] [Server thread/INFO]: World async lighting: false
+[01:57:50] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:57:50] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:57:50] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5518106281506021780)
+[01:57:50] [Server thread/INFO]: Preparing start region for level 1 (Seed: 3445411262146478973)
+[01:57:50] [Server thread/INFO]: [TheBridge] Enabling TheBridge v2.1.3
+[01:57:51] [Server thread/INFO]: [TheBridge] Connecting to services, please wait! Server may freeze a bit!
+[01:57:52] [Server thread/INFO]: [TheBridge] Hooked with ServiceRegistry! Initialized services properly!
+[01:57:52] [Server thread/WARN]: [Debug] Fetched latest localization file from repository.
+[01:57:52] [Server thread/WARN]: [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[01:57:52] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] [m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] Versions: [m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] Plugin: [0;33;22m2.1.3 [m| Server: [0;33;22mgit-PaperSpigot-445 (MC: 1.8.8) [m| Detected: [0;33;22mv1_8_8 [m| Software: [0;33;22mCraftBukkit [m| Java: [0;33;22m21.0.6[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] [m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] This plugin was created by [0;33;22mPlugily Projects [mas part of an [0;33;22mopen source project[m ( https://donate.plugily.xyz )[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] [m
+
+[01:57:52] [Server thread/INFO]: [TheBridge][DISCLAIMER] [0;31;1mWe noticed that you are using an older version of Minecraft.[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge][DISCLAIMER] [0;31;1mPlease keep in mind that newer versions will help improving the security and performance of your server.[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge][DISCLAIMER] [0;31;1mWe do not give official support for old Minecraft versions as they are to outdated, have security risks and slow down dev progress![m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] [m
+
+[01:57:52] [Server thread/INFO]: [TheBridge]                               [0;33;22mThe plugin got fully enabled! Enjoy the plugin ;)[m
+
+[01:57:52] [Server thread/INFO]: [TheBridge] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:52] [Server thread/INFO]: -------- World Settings For [Stone1] --------
+[01:57:52] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Cane Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Melon Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[01:57:52] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Mi 16
+[01:57:52] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 30 / Mi 32 / Other 64
+[01:57:52] [Server thread/INFO]: Hopper Transfer: 10 Hopper Check: 8 Hopper Amount: 1
+[01:57:52] [Server thread/INFO]: Random Lighting Updates: false
+[01:57:52] [Server thread/INFO]: Structure Info Saving: true
+[01:57:52] [Server thread/INFO]: Sending up to 10 chunks per packet
+[01:57:52] [Server thread/INFO]: Max Entity Collisions: 8
+[01:57:52] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Feature: 14357617
+[01:57:52] [Server thread/INFO]: Max TNT Explosions: 100
+[01:57:52] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[01:57:52] [Server thread/INFO]: Mob Spawn Range: 4
+[01:57:52] [Server thread/INFO]: Anti X-Ray: true
+[01:57:52] [Server thread/INFO]: 	Engine Mode: 1
+[01:57:52] [Server thread/INFO]: 	Hidden Blocks: [14, 15, 16, 21, 48, 49, 54, 56, 73, 74, 82, 129, 130]
+[01:57:52] [Server thread/INFO]: 	Replace Blocks: [1, 5]
+[01:57:52] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[01:57:52] [Server thread/INFO]: Item Despawn Rate: 6000
+[01:57:52] [Server thread/INFO]: Item Merge Radius: 2.5
+[01:57:52] [Server thread/INFO]: Arrow Despawn Rate: 100
+[01:57:52] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[01:57:52] [Server thread/INFO]: View Distance: 4
+[01:57:52] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[01:57:52] [Server thread/INFO]: Chunks to Grow per Tick: 650
+[01:57:52] [Server thread/INFO]: Clear tick list: false
+[01:57:52] [Server thread/INFO]: Experience Merge Radius: 3.0
+[01:57:52] [Server thread/INFO]: -------- World Settings For [Stone1] --------
+[01:57:52] [Server thread/INFO]: Remove invalid mob spawner tile entities: true
+[01:57:52] [Server thread/INFO]: Player blocking damage multiplier set to 0.5
+[01:57:52] [Server thread/INFO]: Squids will spawn between Y: 45.0 and Y: 63.0
+[01:57:52] [Server thread/INFO]: Max height for cactus growth 3. Max height for reed growth 3
+[01:57:52] [Server thread/INFO]: Living Entity Despawn Ranges:  Soft: 32 Hard: 128
+[01:57:52] [Server thread/INFO]: Water over lava flow speed: 5
+[01:57:52] [Server thread/INFO]: Fix TNT cannons: false
+[01:57:52] [Server thread/INFO]: Allow undead horse types to be leashed: false
+[01:57:52] [Server thread/INFO]: Keep spawn chunk loaded: true
+[01:57:52] [Server thread/INFO]: World async lighting: false
+[01:57:52] [Server thread/INFO]: WorldServer TickNextTick cap set at 10000
+[01:57:52] [Server thread/INFO]: WorldServer TickNextTickList cap always processes redstone: false
+[01:57:52] [Server thread/INFO]: Preparing start region for level 2 (Seed: 4848578289875041174)
+[01:57:53] [Server thread/INFO]: [0;37;22mArena [0;33;1m[0;37;22mStone 1[0;37;22m instance successfully started![m
+
+[01:57:53] [Server thread/WARN]: [Debug] Block at location world,0,68,-37,0.0,0.0 for arena Stone1 added as sign!
+[01:57:53] [Server thread/WARN]: [Debug] Block at location world,0,68,-37,0.0,0.0 for arena Stone1 added as sign!
+[01:57:53] [Server thread/INFO]: [ResourceWorlds] Enabling ResourceWorlds v1.0-SNAPSHOT
+[01:57:53] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v6.1;no_git_id
+[01:57:53] [Server thread/INFO]: WEPIF: Using the Bukkit Permissions API.
+[01:57:53] [Server thread/INFO]: [WorldEdit] Using com.sk89q.worldedit.bukkit.adapter.impl.Spigot_v1_8_R3 as the Bukkit adapter
+[01:57:54] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.8.15
+[01:57:54] [Server thread/INFO]: [NBTAPI] Found Minecraft: v1_8_R3! Trying to find NMS support
+[01:57:54] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[01:57:54] [Server thread/INFO]: [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[01:57:54] [Server thread/INFO]: [RankSystem] Enabling RankSystem v1.3
+[01:57:54] [Server thread/INFO]: 
+
+[m[[0;32;1mRankSystem[m] [0;31;1mPlugin has been enabled![m
+
+[01:57:54] [Server thread/INFO]: [WelcomeMessage] Enabling WelcomeMessage v1.0
+[01:57:54] [Server thread/INFO]: [Vanish] Enabling Vanish v1.0.0
+[01:57:54] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.12.1
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Using lang-en.yml as language file.[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 section configs from /sections/[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Completed loading 16 shop configs from /shops/[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;37;22mINFO[0;30;1m][m: Updating Shop settings...[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to load default economy provider with reason 'Could not find Vault', trying to automatically find supported economy provider[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: Failed to automatically load an available economy provider, this plugin requires one, disabling...[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: See a list of available economy providers on our wiki here: https://wiki.gpplugins.com/economyshopgui/file-configuration/config.yml#economy-provider[m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m:  [m
+
+[01:57:54] [Server thread/INFO]: [0;30;1m[[0;36;22mEconomyShopGUI[0;30;1m][m [0;30;1m[[0;31;1mWARN[0;30;1m][m: ===================================================[m
+
+[01:57:54] [Server thread/INFO]: [EconomyShopGUI] Disabling EconomyShopGUI v6.12.1
+[01:57:54] [Server thread/INFO]: [DivinePortals] Enabling DivinePortals v1.0.0
+[01:57:54] [Server thread/INFO]: [WeatherClear] Enabling WeatherClear v1.0
+[01:57:54] [Server thread/INFO]: [MurderMystery] Enabling MurderMystery v2.1.2
+[01:57:54] [Server thread/INFO]: [MurderMystery] Connecting to services, please wait! Server may freeze a bit!
+[01:57:54] [Server thread/INFO]: [MurderMystery] Hooked with ServiceRegistry! Initialized services properly!
+[01:57:54] [Server thread/WARN]: [Debug] Fetched latest localization file from repository.
+[01:57:55] [Server thread/WARN]: [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[01:57:55] [Server thread/INFO]: [MurderMystery] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] [m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] Versions: [m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] Plugin: [0;33;22m2.1.2 [m| Server: [0;33;22mgit-PaperSpigot-445 (MC: 1.8.8) [m| Detected: [0;33;22mv1_8_8 [m| Software: [0;33;22mCraftBukkit [m| Java: [0;33;22m21.0.6[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] [m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] This plugin was created by [0;33;22mPlugily Projects [mas part of an [0;33;22mopen source project[m ( https://donate.plugily.xyz )[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] [m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery][DISCLAIMER] [0;31;1mWe noticed that you are using an older version of Minecraft.[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery][DISCLAIMER] [0;31;1mPlease keep in mind that newer versions will help improving the security and performance of your server.[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery][DISCLAIMER] [0;31;1mWe do not give official support for old Minecraft versions as they are to outdated, have security risks and slow down dev progress![m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] [m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery]                               [0;33;22mThe plugin got fully enabled! Enjoy the plugin ;)[m
+
+[01:57:55] [Server thread/INFO]: [MurderMystery] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:55] [Server thread/INFO]: [0;37;22mArena [0;31;22mmm1[0;37;22m has invalid configuration! Missing node: [0;31;22mLOCATIONS ARE INVALID[0;37;22m[m
+
+[01:57:55] [Server thread/WARN]: [Debug] Block at location world,1,68,-37,0.0,0.0 for arena mm1 added as sign!
+[01:57:55] [Server thread/WARN]: [Debug] Block at location world,1,68,-37,0.0,0.0 for arena mm1 added as sign!
+[01:57:55] [Server thread/INFO]: [VillageDefense] Enabling VillageDefense v4.7.1
+[01:57:55] [Server thread/INFO]: [VillageDefense] Connecting to services, please wait! Server may freeze a bit!
+[01:57:55] [Server thread/INFO]: [VillageDefense] Hooked with ServiceRegistry! Initialized services properly!
+[01:57:55] [Server thread/WARN]: [Debug] Fetched latest localization file from repository.
+[01:57:56] [Server thread/WARN]: [Debug] §aLoaded locale Default (Default ID: default) by Internal Plugin
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] [m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] Versions: [m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] Plugin: [0;33;22m4.7.1 [m| Server: [0;33;22mgit-PaperSpigot-445 (MC: 1.8.8) [m| Detected: [0;33;22mv1_8_R3 [m| Software: [0;33;22mCraftBukkit [m| Java: [0;33;22m21.0.6[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] [m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] This plugin was created by [0;33;22mPlugily Projects [mas part of an [0;33;22mopen source project[m ( https://donate.plugily.xyz )[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] [m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense][DISCLAIMER] [0;31;1mWe noticed that you are using an older version of Minecraft.[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense][DISCLAIMER] [0;31;1mPlease keep in mind that newer versions will help improving the security and performance of your server.[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense][DISCLAIMER] [0;31;1mWe do not give official support for old Minecraft versions as they are to outdated, have security risks and slow down dev progress![m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] [m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense]                               [0;33;22mThe plugin got fully enabled! Enjoy the plugin ;)[m
+
+[01:57:56] [Server thread/INFO]: [VillageDefense] -_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_--_-_-_-[m
+
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section start-wave not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section end-wave found. Registering as number reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section start-wave not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section end-wave found. Registering as number reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section start-wave not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section end-wave found. Registering as number reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section start-wave not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section villager-death not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section zombie-kill not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section player-death not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section villager-death not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-end not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section game-start not found. Registering as normal reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section end-wave found. Registering as number reward
+[01:57:56] [Server thread/WARN]: [Debug] Rewards section start-wave not found. Registering as normal reward
+[01:57:56] [Server thread/INFO]: [0;37;22mArena [0;32;1mvda1[0;37;22m has invalid configuration! Missing node: [0;32;1mLOCATIONS ARE INVALID[0;37;22m[m
+
+[01:57:56] [Server thread/WARN]: [Debug] Block at location world,2,68,-37,0.0,0.0 for arena vda1 added as sign!
+[01:57:56] [Server thread/WARN]: [Debug] Block at location world,2,68,-37,0.0,0.0 for arena vda1 added as sign!
+[01:57:56] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.21.8
+[01:57:56] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.8 Plugin Loading...
+[01:57:56] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.21.8 Plugin Loaded!
+[01:57:56] [Server thread/INFO]: [LightAntiCheat] Enabling LightAntiCheat v1.2.6
+[01:57:56] [Server thread/INFO]: [CommandItems] Enabling CommandItems v1.18.2
+[01:57:56] [Server thread/INFO]: [0;34;1mLOGGER [CommandItems] | [0;33;1mWARN: You no placeholder container found! (PAPI, MVdWPAPI). The internal one will be used![m
+
+[01:57:56] [Server thread/INFO]: [0;34;1mLOGGER [CommandItems] | [0;37;22mINFO: Server version is most likely 1.8.8 (2, v1_8_R3 :: unkn)[m
+
+[01:57:56] [Server thread/INFO]: [0;34;1mLOGGER [CommandItems] | [0;37;22mINFO: Executed setup for config: config.yml[m
+
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Enabling CrazyCrates v1.10.2.2
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading the config.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Successfully loaded config.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading the Messages.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Successfully loaded Messages.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading the Locations.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Successfully loaded Locations.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading the data.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Successfully loaded data.yml
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading custom files.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Crazy.yml.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Classic.yml.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Galactic.yml.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loaded new custom file: /Crates/Basic.yml.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Finished loading custom files.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading all crate information...
+[01:57:56] [Server thread/INFO]: [NBTAPI] Found Spigot: v1_8_R3! Trying to find NMS support
+[01:57:56] [Server thread/INFO]: [NBTAPI] NMS support 'MC1_8_R3' loaded!
+[01:57:56] [Server thread/INFO]: [NBTAPI] Found Gson: class com.google.gson.Gson
+[01:57:56] [Server thread/INFO]: [CrazyCrates] All crate information has been loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Loading all the physical crate locations.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] All physical crate locations have been loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Searching for schematics to load.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] nether.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] outdoors.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] soul.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] sea.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] classic.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] wooden.schematic was successfully found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] All schematics were found and loaded.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] Cleaning up the data.yml file.
+[01:57:56] [Server thread/INFO]: [CrazyCrates] The data.yml file has been cleaned.
+[01:57:56] [Thread-14/WARN]: [NBTAPI] The NBT-API located at 'package me.badbones69.crazycrates.plugin.lib.de.tr7zw.changeme.nbtapi' seems to be outdated!
+[01:57:56] [Thread-14/WARN]: [NBTAPI] Current Version: '2.11.1' Newest Version: 2.15.0'
+[01:57:56] [Thread-14/WARN]: [NBTAPI] Please update the NBTAPI or the plugin that contains the api(nag the mod author when the newest release has an old version, not the NBTAPI dev)!
+[01:57:56] [Server thread/INFO]: [LoginSecurity] Enabling LoginSecurity v3.3.0
+[01:57:56] [Server thread/INFO]: [LoginSecurity] Loading base translations from "en_us"
+[01:57:56] [Server thread/INFO]: [LoginSecurity] Loading specified translations from "en_us"
+[01:57:57] [Server thread/INFO]: [LoginSecurity] Registering commands...
+[01:57:57] [Server thread/INFO]: [LoginSecurity] Registering listeners...
+[01:57:57] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[01:57:57] [Server thread/INFO]: Done (6.958s)! For help, type "help" or "?"
+[01:57:57] [Server thread/INFO]: Timings Reset
+[01:57:57] [Craft Scheduler Thread - 2/INFO]: 
+[0;37;1mA newer version of [0;36;22mDecentHolograms [0;37;1mis available. Download it from: 
+[0;37;1m- [0;37;22mhttps://www.spigotmc.org/resources/96927/
+[0;37;1m- [0;37;22mhttps://modrinth.com/plugin/decentholograms[m
+
+[01:59:06] [Thread-18/INFO]: UUID of player TrainBoy888 is f8dfa6c0-c755-30c9-b8b5-d26f082c1f32
+[01:59:06] [Server thread/INFO]: TrainBoy888[/[0:0:0:0:0:0:0:1]:56912] logged in with entity id 91 at ([world]-0.07518724315329046, 67.0, -44.35625540100206)
+[01:59:08] [Server thread/ERROR]: [LoginSecurity] Failed to save user profile
+java.sql.SQLException: [SQLITE_READONLY]  Attempt to write a readonly database (attempt to write a readonly database)
+	at org.sqlite.DB.newSQLException(DB.java:383) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.sqlite.DB.newSQLException(DB.java:387) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.sqlite.DB.execute(DB.java:342) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.sqlite.DB.executeUpdate(DB.java:363) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.sqlite.PrepStmt.executeUpdate(PrepStmt.java:85) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at com.lenis0012.bukkit.loginsecurity.database.ProfileRepository.updateBlocking(ProfileRepository.java:87) ~[?:?]
+	at com.lenis0012.bukkit.loginsecurity.database.ProfileRepository.lambda$update$1(ProfileRepository.java:63) ~[?:?]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftTask.run(CraftTask.java:59) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.bukkit.craftbukkit.v1_8_R3.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:53) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at org.github.paperspigot.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:23) ~[patched_1.8.8.jar:git-PaperSpigot-445]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1583) [?:?]
+[01:59:09] [Server thread/INFO]: [0;33;22m[[0;36;1mCommandPanels[0;33;22m] [0;32;1mPanel Opened for [0;37;22mTrainBoy888[m
+
+[02:00:30] [Thread-2/INFO]: Stopping server

@@ -1,0 +1,12 @@
+worlds:
+  world:
+    teleport: true
+    displayname: Lobby
+  world_the_end:
+    teleport: false
+    displayname: world_the_end
+  Stone1:
+    teleport: true
+    displayname: Stone1
+  Surivival:
+    displayname: Surivival
