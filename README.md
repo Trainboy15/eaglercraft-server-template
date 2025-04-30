@@ -8,11 +8,8 @@ Original Server Fork: EcoliEater87
 Forked from: IsmaelTechProxy
 <be>
 ## Links
-<br>
-<be>
 https://sites.google.com/rosd.org/sfn/home 
-</be>
-<br>
+<be>
 ## Setup Guide
 Welcome to the EaglercraftX server project! Here is how you can setup your very own eaglercraft server:
 <br>
